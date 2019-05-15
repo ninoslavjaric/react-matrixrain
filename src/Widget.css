@@ -1,0 +1,79 @@
+.widget {
+    position: relative;
+}
+
+.widget {
+    z-index: 1;
+    margin-top: 60px;
+}
+
+.widget-frame {
+    overflow-y: auto;
+}
+
+@font-face {
+    font-family: SCRIPTIN;
+    src: url(./fonts/SCRIPTIN.ttf);
+}
+
+.widget h1 {
+    font-family: SCRIPTIN, serif;
+    color: #fff;
+    font-size: 120px;
+    letter-spacing: 15px;
+    margin-bottom: 80px;
+}
+
+.contacts>*>a {
+    display: block;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.contacts>* {
+    display: inline-block;
+    font-size: 28px;
+}
+
+.contacts>*>a.fb:hover {
+    color: #507cbe;
+}
+.contacts>*>a.twitter:hover {
+    color: #62cdf2;
+}
+.contacts>*>a.gplus:hover {
+    color: #ec5d48;
+}
+.contacts>*>a.linkedin:hover {
+    color: #1e88c9;
+}
+.contacts>*>a.ytube:hover {
+    color: #e64c38;
+}
+.contacts>*>a.dribbble:hover {
+    color: #d34e95;
+}
+.contacts>*>a.pinterest:hover {
+    color: #e94546;
+}
+
+@media only screen and (max-width: 500px) {
+    .widget h1 {
+        font-size: 90px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .widget h1 {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .widget h1 {
+        font-size: 40px;
+    }
+}

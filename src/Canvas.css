@@ -1,0 +1,6 @@
+.relativize{
+    position: relative;
+}
+canvas#c{
+    position: fixed;
+}
